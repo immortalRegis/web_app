@@ -21,4 +21,4 @@ Topic: {inquiry}
     if button:
         send_email.send_new_email(message)
         st.info("Your message was sent successfully.")
-        print(message)
+
